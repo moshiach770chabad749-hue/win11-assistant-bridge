@@ -1,0 +1,33 @@
+﻿PASS durable typed backup, apply, restore and idempotent restore
+PASS write failure rolls back partial application from disk
+PASS third-party change preserved; conflict remains retryable
+PASS race between plan and apply stops before overwrite
+PASS cache clearing restores values and preserves key structure
+PASS HwReqChkVars merge; two targeted identities; only three supported LabConfig names
+PASS missing original hive rejected before applying anything
+PASS unexpected HwReqChkVars type rejected
+PASS strict HTTPS Microsoft redirect policy
+PASS unsigned executable rejected by native Authenticode verifier
+PASS launch arguments contain only explicit experimental compatibility option
+INFO CPUID.1.ECX=0xFFFAF38B
+PASS native x64 CPUID returns distinct SSE4.2 and POPCNT bits
+PASS global named mutex and exclusive file reject concurrent acquisition
+PASS restore countdown gates a recovered launch until a full observed minute
+PASS actual form disables restore while waiting and enables it after quiet interval
+PASS DNS error from user log classified by nested exception status
+PASS simulated DNS twice then success; three attempts and atomic verified replacement
+PASS persistent DNS stops after three attempts and preserves existing Assistant
+PASS HTTP 503 retried; HTTP 403 not retried
+PASS redirect outside Microsoft rejected before second request
+PASS simulated invalid signature preserves cache and removes untrusted staging
+PASS cancel during retry delay prevents further requests
+PASS HTTP timeout retries three times and is not reported as a user cancellation
+PASS recent cache is reverified and needs no bootstrap download
+PASS cache verification failure falls back to download without using untrusted cache
+PASS unsigned local import is rejected without replacing existing Assistant
+PASS older cache after DNS failure requires consent and a second verification
+PASS TLS trust failure does not offer older-cache network fallback
+PASS relaunch allows only prepared or observed-idle past launch; conflicts remain blocked
+PASS evidence ZIP contains source files and atomically replaces prior export
+TOTAL tests=30 failed=0 UTC=2026-10-25T22:57:51.0212400Z
+No OS upgrade, installer launch, eligibility registry writes, reboot or formatting performed.

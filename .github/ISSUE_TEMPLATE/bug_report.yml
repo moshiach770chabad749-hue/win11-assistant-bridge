@@ -1,0 +1,40 @@
+name: דיווח תקלה
+description: תקלה בכלי או במהלך השימוש באשף Microsoft
+body:
+  - type: markdown
+    attributes:
+      value: |
+        הדיווח ציבורי. אין לצרף ZIP ראיות מלא, גיבויי Registry או פרטים אישיים.
+        לפני הדבקת קטע יומן הסר שמות משתמשים, SID אמיתי, נתיבי משתמש ופרטי רשת.
+  - type: input
+    id: tool_version
+    attributes:
+      label: גרסת הכלי
+      placeholder: 1.0.0
+    validations:
+      required: true
+  - type: input
+    id: windows_version
+    attributes:
+      label: גרסת Windows ובילד המקור
+      placeholder: 25H2, 26200.x
+    validations:
+      required: true
+  - type: textarea
+    id: failure
+    attributes:
+      label: מה קרה ובאיזה שלב?
+      description: ציין באיזה חלון, כמה זמן נמשך השלב ומה נוסח השגיאה.
+    validations:
+      required: true
+  - type: textarea
+    id: settings
+    attributes:
+      label: אפשרויות שנבחרו ושלבים לשחזור
+    validations:
+      required: true
+  - type: textarea
+    id: log_excerpt
+    attributes:
+      label: קטע יומן לאחר הסרת פרטים אישיים (אופציונלי)
+      render: text

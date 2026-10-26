@@ -1,0 +1,27 @@
+# Publish only reviewed project files. Build products and local evidence stay local.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/LICENSE
+!/CONTRIBUTING.md
+!/build.ps1
+!/package-release.ps1
+!/src/
+!/docs/
+!/.github/
+!/validation/
+
+/validation/*
+!/validation/1.0.0/
+
+# Never commit executables, private backups, machine state or exported logs.
+*.exe
+*.pdb
+*.zip
+operations.log
+state.json*
+backup-*.json
+archive-*.json
+evidence-*/
+connection-check.txt

@@ -1,0 +1,20 @@
+Date: 2026-10-26 (Asia/Jerusalem)
+Version: 1.0.0.0
+Executable SHA256: 57876055D9B313519E26B0BABBF6EA527FFDC1974E84546AFE0EEFF30E906940
+Compilation: PASS, .NET Framework x64, warnings treated as errors.
+Self-tests: 30 PASS, 0 FAIL. The executable and report hashes are bound by dist/build-verification.json.
+UI preview: rendered and visually inspected.
+Live Microsoft Assistant download: PASS, verified Microsoft Corporation signature.
+Verified Assistant version: 1.4.19041.7779
+Verified Assistant SHA256: A54D847BC7DA71E7E291BA321C80CF6E2F0345B20E399F11670378912D0DB14A
+Fresh signature revalidation and reuse from cache: PASS.
+
+Distribution: release/1.0.0/Win11Updater-1.0.0.exe
+Source and validation receipts: release/1.0.0/Win11Updater-1.0.0-source.zip
+The wrapper executable is unsigned by a distributor certificate.
+Microsoft binaries are not included in the distribution.
+No Microsoft installer was launched during agent verification.
+No OS upgrade, restart, formatting or eligibility writes on the local computer were performed during verification.
+The user confirmed the upgrade on the unsupported test PC completed and they signed in to the updated Windows. Exact tool version and target Windows build were not provided. This is a user-confirmed success, not independent end-to-end verification by the agent or specific verification of version 1.0.0.
+No guarantee is made for all unsupported hardware.
+No security policy was modified.

@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0.0",
+  "executable": "Win11AssistantBridge.exe",
+  "sha256": "57876055D9B313519E26B0BABBF6EA527FFDC1974E84546AFE0EEFF30E906940",
+  "reportSha256": "B5EB9C2FCCD98C265CF6E950961F27F54E770D22A915B986F96F149FED32944E",
+  "testsPassed": 30,
+  "testsFailed": 0,
+  "verifiedUtc": "2026-10-25T22:57:51.0738374Z",
+  "osUpgradeTestedByAgent": false
+}

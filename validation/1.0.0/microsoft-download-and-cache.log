@@ -1,0 +1,5 @@
+﻿2026-10-26T00:58:13.1368038+02:00 DOWNLOAD https://go.microsoft.com/fwlink/?linkid=2171764
+2026-10-26T00:58:13.6151193+02:00 DOWNLOAD https://download.microsoft.com/download/e4bc63b3-16f5-450f-a983-c4fc924b97d5/Windows11InstallationAssistant.exe
+2026-10-26T00:58:14.2791330+02:00 SIGNATURE CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US | version=1.4.19041.7779 | SHA256=A54D847BC7DA71E7E291BA321C80CF6E2F0345B20E399F11670378912D0DB14A
+2026-10-26T00:58:14.3899565+02:00 CACHE SIGNATURE CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US | version=1.4.19041.7779 | SHA256=A54D847BC7DA71E7E291BA321C80CF6E2F0345B20E399F11670378912D0DB14A
+2026-10-26T00:58:14.3899565+02:00 CACHE USE recent verified Microsoft Assistant; Windows download still requires Internet

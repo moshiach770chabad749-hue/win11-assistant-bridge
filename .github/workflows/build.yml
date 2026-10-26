@@ -1,0 +1,30 @@
+name: Build and component tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: windows-2022
+    timeout-minutes: 10
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+      - name: Build and run component tests
+        shell: powershell
+        run: .\build.ps1 -RunTests
+      - name: Upload build and test receipt
+        uses: actions/upload-artifact@v4
+        with:
+          name: win11-assistant-bridge-build
+          if-no-files-found: error
+          path: |
+            dist/Win11AssistantBridge.exe
+            dist/test-results.txt
+            dist/build-verification.json
