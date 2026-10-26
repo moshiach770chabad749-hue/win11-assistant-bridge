@@ -138,6 +138,8 @@ C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /nologo /target:winexe /
 
 אפשר לפתוח דיווח תקלה או הצעת שיפור ב־[Issues](https://github.com/moshiach770chabad749-hue/win11-assistant-bridge/issues), ולשלוח שינוי בקוד באמצעות Pull Request. קרא את [הנחיות ההשתתפות](CONTRIBUTING.md) לפני צירוף יומנים. אין לצרף גיבויי Registry, שמות משתמשים או פרטים אישיים לדיווח ציבורי. בדיקות בנייה ולוגיקה מוגדרות ב־GitHub Actions; הן אינן ניסוי שדרוג Windows.
 
+הקשר עם מתחזק הפרויקט מתבצע ב־GitHub בלבד. לא מתפרסמים בפרויקט כתובת אימייל, טלפון או פרטי קשר אישיים. הכלי שומר יומנים מקומית; הוא אינו שולח אותם למתחזק.
+
 ## English overview
 
 Free, MIT-licensed Hebrew Windows 11 x64 launcher for the original Microsoft Windows 11 Installation Assistant. It downloads and verifies Microsoft's signed assistant, backs up and applies selected local eligibility settings, and lets the original interactive assistant perform the upgrade. It does not bundle Microsoft binaries, download an ISO, create installation media or replace Windows Setup. Unsupported hardware success is device-dependent; missing CPU instructions cannot be added by registry changes. The launcher itself is unsigned. Read the Hebrew instructions and keep a separate backup of important files before use.

@@ -20,7 +20,7 @@ $releaseExe = Join-Path $releaseRoot ('Win11Updater-' + $shortVersion + '.exe')
 Copy-Item -LiteralPath $exe -Destination $releaseExe -Force
 Copy-Item -LiteralPath $report -Destination (Join-Path $validation 'self-tests.txt') -Force
 Copy-Item -LiteralPath $receiptPath -Destination (Join-Path $validation 'build-verification.json') -Force
-$guide = Join-Path $releaseRoot 'הוראות-הפעלה.txt'
+$guide = Join-Path $releaseRoot 'QUICKSTART.he.txt'
 Copy-Item -LiteralPath (Join-Path $PSScriptRoot 'docs\QUICKSTART.he.txt') -Destination $guide -Force
 Copy-Item -LiteralPath (Join-Path $PSScriptRoot 'LICENSE') -Destination (Join-Path $releaseRoot 'LICENSE.txt') -Force
 
